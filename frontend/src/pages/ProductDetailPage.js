@@ -2,13 +2,34 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 
 export class ProductDetailPage extends Component {
-  selectTab(event, tabId) {
 
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      activeTabId: 0,
+    };
+
+  }
+
+  selectTab(event, tabId) {
+    event.preventDefault();
+    this.setState({
+        activeTabId: tabId,
+    });
+  }
+
+  renderTab(activeTabId) {
+    if(activeTabId === 0) {
+      return <div>Description</div>
+    } else {
+      return <div>Parameters</div>
+    }
   }
 
   render() {
     const { productId } = this.props.params;
-    const activeTabId = 0;
+    const { activeTabId } = this.state;
     return (
       <div>
         <div className="jumbotron">
@@ -27,6 +48,7 @@ export class ProductDetailPage extends Component {
               </a>
             </li>
           </ul>
+          {this.renderTab(activeTabId)}
           <h3>id: {productId}</h3>
           <p>price: <span className="price">750 000 Kč</span></p>
           <p>Luxury car produced in the Czech Republic.</p>
