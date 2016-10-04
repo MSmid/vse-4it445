@@ -21,9 +21,18 @@ export class ProductDetailPage extends Component {
 
   renderTab(activeTabId) {
     if(activeTabId === 0) {
-      return <div>Description</div>
+      return (
+        <div>
+          <h3>{ props.title }</h3>
+          <p>{ props.shortInfo }</p>
+        </div>
+      );
     } else {
-      return <div>Parameters</div>
+      return (
+        <div>
+          <p>{ props.price }</p>
+        </div>
+      );
     }
   }
 
