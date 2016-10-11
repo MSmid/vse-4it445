@@ -1,0 +1,240 @@
+[2016-10-04 16:30:10.397] [INFO] console - Web server listening at: http://0.0.0.0:undefined
+[2016-10-04 16:30:10.399] [INFO] console - Browse your REST API at http://0.0.0.0:undefined/explorer
+[2016-10-04 16:40:36.700] [ERROR] console - Unhandled error for request GET /hello: Error: Cannot GET /hello
+    at raiseUrlNotFoundError (/home/xsmim28/code/cviceni/backend/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:312:13)
+    at /home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:271:10)
+    at /home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:618:15
+    at next (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:312:13)
+    at /home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:271:10)
+    at nosniff (/home/xsmim28/code/cviceni/backend/node_modules/dont-sniff-mimetype/index.js:4:5)
+[2016-10-04 16:49:10.293] [ERROR] console - Unhandled error for request GET /hello: Error: Cannot GET /hello
+    at raiseUrlNotFoundError (/home/xsmim28/code/cviceni/backend/node_modules/loopback/server/middleware/url-not-found.js:20:17)
+    at Layer.handle [as handle_request] (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:312:13)
+    at /home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:271:10)
+    at /home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:618:15
+    at next (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:46:12)
+    at Layer.handle [as handle_request] (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:312:13)
+    at /home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/xsmim28/code/cviceni/backend/node_modules/express/lib/router/index.js:271:10)
+    at nosniff (/home/xsmim28/code/cviceni/backend/node_modules/dont-sniff-mimetype/index.js:4:5)
+[2016-10-04 16:51:43.322] [INFO] console - Web server listening at: http://0.0.0.0:undefined
+[2016-10-04 16:51:43.324] [INFO] console - Browse your REST API at http://0.0.0.0:undefined/explorer
+[2016-10-04 16:53:39.424] [INFO] console - Web server listening at: http://0.0.0.0:undefined
+[2016-10-04 16:53:39.426] [INFO] console - Browse your REST API at http://0.0.0.0:undefined/explorer
+[2016-10-04 16:54:55.940] [INFO] console - Web server listening at: http://0.0.0.0:undefined
+[2016-10-04 16:54:55.943] [INFO] console - Browse your REST API at http://0.0.0.0:undefined/explorer
+[2016-10-04 16:57:46.067] [ERROR] console - Unhandled error for request POST /Users: SyntaxError: Unexpected token g in JSON at position 0
+    at Object.parse (native)
+    at parse (/home/xsmim28/code/cviceni/backend/node_modules/body-parser/lib/types/json.js:88:17)
+    at /home/xsmim28/code/cviceni/backend/node_modules/body-parser/lib/read.js:116:18
+    at invokeCallback (/home/xsmim28/code/cviceni/backend/node_modules/raw-body/index.js:262:16)
+    at done (/home/xsmim28/code/cviceni/backend/node_modules/raw-body/index.js:251:7)
+    at IncomingMessage.onEnd (/home/xsmim28/code/cviceni/backend/node_modules/raw-body/index.js:307:7)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2016-10-04 16:58:18.562] [ERROR] console - Unhandled error for request GET /Users: Error: Authorization Required
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback/lib/application.js:388:21
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback/lib/model.js:316:7
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback/common/models/acl.js:472:23
+    at /home/xsmim28/code/cviceni/backend/node_modules/async/dist/async.js:3679:13
+    at /home/xsmim28/code/cviceni/backend/node_modules/async/dist/async.js:952:25
+    at iteratorCallback (/home/xsmim28/code/cviceni/backend/node_modules/async/dist/async.js:997:17)
+    at /home/xsmim28/code/cviceni/backend/node_modules/async/dist/async.js:847:20
+    at /home/xsmim28/code/cviceni/backend/node_modules/async/dist/async.js:3676:17
+    at /home/xsmim28/code/cviceni/backend/node_modules/async/dist/async.js:339:31
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback/common/models/acl.js:454:17
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback/common/models/role.js:269:21
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2016-10-04 17:07:35.190] [INFO] console - Models created: 
+ [ { title: 'Škoda Superb',
+    price: 750000,
+    shortInfo: 'Luxury car produced in the Czech Republic.',
+    id: 1 },
+  { title: 'Ford Focus',
+    price: 600000,
+    shortInfo: 'Sports car made in USA.',
+    id: 2 },
+  { title: 'Moped', price: 1000, shortInfo: 'No comment.', id: 3 } ]
+[2016-10-04 17:07:35.212] [INFO] console - Web server listening at: http://0.0.0.0:undefined
+[2016-10-04 17:07:35.213] [INFO] console - Browse your REST API at http://0.0.0.0:undefined/explorer
+[2016-10-04 17:19:19.609] [INFO] console - Models created: 
+ [ { title: 'Škoda Superb',
+    price: 750000,
+    shortInfo: 'Luxury car produced in the Czech Republic.',
+    id: 1 },
+  { title: 'Ford Focus',
+    price: 600000,
+    shortInfo: 'Sports car made in USA.',
+    id: 2 },
+  { title: 'Moped', price: 1000, shortInfo: 'No comment.', id: 3 } ]
+[2016-10-04 17:19:19.630] [INFO] console - Web server listening at: http://0.0.0.0:undefined
+[2016-10-04 17:19:19.631] [INFO] console - Browse your REST API at http://0.0.0.0:undefined/explorer
+[2016-10-04 20:43:43.167] [INFO] console - Models created: 
+ [ { title: 'Škoda Superb',
+    price: 750000,
+    shortInfo: 'Luxury car produced in the Czech Republic.',
+    id: 1 },
+  { title: 'Ford Focus',
+    price: 600000,
+    shortInfo: 'Sports car made in USA.',
+    id: 2 },
+  { title: 'Moped', price: 1000, shortInfo: 'No comment.', id: 3 } ]
+[2016-10-04 20:43:43.190] [INFO] console - Web server listening at: http://0.0.0.0:undefined
+[2016-10-04 20:43:43.191] [INFO] console - Browse your REST API at http://0.0.0.0:undefined/explorer
+[2016-10-04 22:12:38.604] [ERROR] console - Unhandled error for request POST /products: ValidationError: The `EshopProduct` instance is not valid. Details: `title` can't be blank (value: "").
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:323:12
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:495:11)
+    at ModelConstructor.next (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:492:23)
+    at ModelConstructor.trigger (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:73:12)
+    at ModelConstructor.Validatable.isValid (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:458:8)
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:319:9
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:122:5)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+[2016-10-04 22:12:41.252] [ERROR] console - Unhandled error for request POST /products: ValidationError: The `EshopProduct` instance is not valid. Details: `title` can't be blank (value: "").
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:323:12
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:495:11)
+    at ModelConstructor.next (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:492:23)
+    at ModelConstructor.trigger (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:73:12)
+    at ModelConstructor.Validatable.isValid (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:458:8)
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:319:9
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:122:5)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+[2016-10-04 22:12:49.330] [ERROR] console - Unhandled error for request POST /products: ValidationError: The `EshopProduct` instance is not valid. Details: `title` can't be blank (value: "").
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:323:12
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:495:11)
+    at ModelConstructor.next (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:492:23)
+    at ModelConstructor.trigger (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:73:12)
+    at ModelConstructor.Validatable.isValid (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:458:8)
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:319:9
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:122:5)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+[2016-10-04 22:16:03.213] [ERROR] console - Unhandled error for request POST /products: ValidationError: The `EshopProduct` instance is not valid. Details: `title` can't be blank (value: "").
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:323:12
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:495:11)
+    at ModelConstructor.next (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:492:23)
+    at ModelConstructor.trigger (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:73:12)
+    at ModelConstructor.Validatable.isValid (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:458:8)
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:319:9
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:122:5)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+[2016-10-04 22:16:04.816] [ERROR] console - Unhandled error for request POST /products: ValidationError: The `EshopProduct` instance is not valid. Details: `title` can't be blank (value: "").
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:323:12
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:495:11)
+    at ModelConstructor.next (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:492:23)
+    at ModelConstructor.trigger (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:73:12)
+    at ModelConstructor.Validatable.isValid (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:458:8)
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:319:9
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:122:5)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+[2016-10-04 22:16:08.307] [ERROR] console - Unhandled error for request POST /products: ValidationError: The `EshopProduct` instance is not valid. Details: `title` can't be blank (value: "").
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:323:12
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:495:11)
+    at ModelConstructor.next (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:492:23)
+    at ModelConstructor.trigger (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:73:12)
+    at ModelConstructor.Validatable.isValid (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:458:8)
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:319:9
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:122:5)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+[2016-10-04 22:17:11.527] [ERROR] console - Unhandled error for request POST /products: ValidationError: The `EshopProduct` instance is not valid. Details: `title` can't be blank (value: "").
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:323:12
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:495:11)
+    at ModelConstructor.next (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:492:23)
+    at ModelConstructor.trigger (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:73:12)
+    at ModelConstructor.Validatable.isValid (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:458:8)
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:319:9
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:122:5)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+[2016-10-04 22:17:53.465] [ERROR] console - Unhandled error for request POST /products: ValidationError: The `EshopProduct` instance is not valid. Details: `title` can't be blank (value: "").
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:323:12
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:495:11)
+    at ModelConstructor.next (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:83:12)
+    at ModelConstructor.<anonymous> (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:492:23)
+    at ModelConstructor.trigger (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/hooks.js:73:12)
+    at ModelConstructor.Validatable.isValid (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/validations.js:458:8)
+    at /home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/dao.js:319:9
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at doNotify (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:99:49)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:122:5)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
+    at Function.ObserverMixin.notifyObserversOf (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:97:8)
+    at Function.ObserverMixin._notifyBaseObservers (/home/xsmim28/code/cviceni/backend/node_modules/loopback-datasource-juggler/lib/observer.js:120:15)
